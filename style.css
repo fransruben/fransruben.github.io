@@ -1,0 +1,21 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #4A2DD3,#F900FD);
+}
+
+.wrapper-text {
+    width: 75%;
+    height: 200x;
+    margin: 250px auto;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 200px;
+}
