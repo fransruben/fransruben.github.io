@@ -5,6 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
+
+    <script type="text/javascript">
+    window.onload = function main(){
+        var DOB = moment('2018-12-19');
+
+        var daysAlive = moment().diff(DOB,'days');
+        console.log(daysAlive);
+
+        // put in HTML
+        var h2 = document.getElementById('days');
+        h2.insertAdjacentHTML('afterend', daysAlive);
+    }
+    </script>
+
     <title>Document</title>
 
     <style>
@@ -23,6 +39,9 @@
 
 <body>
     <h1>Tok tok tok... 🐔 </h1>
+    <h2 id="days"></h2>
+
+
 </body>
 
 </html>
