@@ -1,47 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <title>Kipcam</title>
+  <base href="/">
 
-    <script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
-
-    <script type="text/javascript">
-    window.onload = function main(){
-        var DOB = moment('2018-12-19');
-
-        var daysAlive = moment().diff(DOB,'days');
-        console.log(daysAlive);
-
-        // put in HTML
-        var h2 = document.getElementById('days');
-        h2.insertAdjacentHTML('afterend', daysAlive);
-    }
-    </script>
-
-    <title>Document</title>
-
-    <style>
-        body {
-            margin: 0;
-            width: 100%;
-            text-align: center;
-        }
-
-        h1 {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: 64px;
-        }
-    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-    <h1>Tok tok tok... 🐔 </h1>
-    <h2 id="days"></h2>
-
-
-</body>
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="es2015-polyfills.js" nomodule></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
 
 </html>
